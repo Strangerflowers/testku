@@ -1,0 +1,54 @@
+@import './main.less';
+
+   
+.searchbar {
+    .w(375);
+    .h(50);
+    .padding(0,10,0,10);
+    background:#f60;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    .lh(50);
+    .h(50);
+    .fs(14);
+    background: #f60;
+    color: #fff;
+    .title{
+        min-width: 25px;
+        padding: 0 10px 0 0;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+        img{
+            .w(50);
+            // margin-top: 10px;
+        }
+    }
+    .search {
+        position: relative;
+        -webkit-box-flex: 1;
+        -moz-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        .lh(34);
+        .h(34);
+        margin: 8px 0 0;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        background: #fff;
+        color: #aaa;
+        .text{
+            .margin(0,0,0,5);
+        }
+        .iconfont {
+            position: absolute;
+            right: 5px;
+        }
+    }
+}
